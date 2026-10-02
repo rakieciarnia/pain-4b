@@ -8,3 +8,5 @@ piszemy skrypt.js niezależnie od HTMLa, ale używamy przegladarki jako środowi
 4. zadeklaruj tablicę tab = [1, 9, 3, 4, 6, 7]
 5. wykonaj funkcję wypisz dla każdego elementu tablicy, jako argument podaj tab[i]
 6. posortuj tablicę tab rosnaco i malejaco
+
+https://github.com/rakieciarnia/pain-4b
