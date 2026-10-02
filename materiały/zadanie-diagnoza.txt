@@ -1,0 +1,10 @@
+zadanie!
+
+piszemy skrypt.js niezależnie od HTMLa, ale używamy przegladarki jako środowisko uruchomieniowe
+
+1. zadeklaruj zmienną x = 5
+2. zadeklaruj funkcję wypisz, która przyjmuje argument arg i wypisuje w konsoli twoje imie + arg
+3. wykonaj funkcję wypisz x razy
+4. zadeklaruj tablicę tab = [1, 9, 3, 4, 6, 7]
+5. wykonaj funkcję wypisz dla każdego elementu tablicy, jako argument podaj tab[i]
+6. posortuj tablicę tab rosnaco i malejaco
