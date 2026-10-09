@@ -1,0 +1,4 @@
+Do wykonania zadania możesz używać programów napisanych przez siebie na poprzednich zajęciach PAIN. Używanie internetu przed zakończeniem zadania i zgłoszeniem, nawet do celów niezwiązanych z zadaniem, skutkuje oceną niedostateczną bez możliwości poprawy. Kod wyślij w treści maila na adres sprawdzian@rakieciarnia.pl, w tytule imię, nazwisko i klasa.
+
+Napisz funkcję w języku JavaScript, która dla zadeklarowanych zmiennych stałych start i end obliczy sumę wszystkich liczb parzystych z przedziału od start do end włącznie.
+Zwrócony wynik działania funkcji wypisz w konsoli w postaci zdania, np. Suma liczb parzystych z przedziału od 3 do 10 wynosi 28.
