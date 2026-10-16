@@ -1,0 +1,35 @@
+Dane wejściowe:
+const rooms = [
+    {
+        id: 1,
+        name: "Sala 12",
+        equipment: ["projektor", "tablica"]
+    },
+    {
+        id: 2,
+        name: "Pracownia komputerowa",
+        equipment: ["komputery", "projektor"]
+    },
+    {
+        id: 3,
+        name: "Sala 25",
+        equipment: ["tablica"]
+    }
+];
+
+const todaysReservations = [
+    {
+        id: 101,
+        roomId: 1,
+        startHour: 9,
+        endHour: 11,
+    }
+];
+
+Zadanie 1. Napisz funkcję reserveRoom(name, startHour, endHour) która:
+- znajduje id sali o podanej nazwie
+- sprawdza czy istnieje rezerwacja sali o podanej godzinie, jeśli tak, wyświetla komunikat że nie jest możliwe dokonanie rezerwacji bo sala jest zajęta
+- jeśli sala jest dostępna doda rezerwację do todaysReservations
+- wyświetla w konsoli komunikat z podsumowaniem rezerwacji
+
+Zadanie 2. Napisz funkcję reserveRoomWithEquipment(equipment, startHour, endHour) która dokonuje rezerwacji w dowolnej sali z podanym wyposażeniem np. tablica, a jeśli taka sala nie jest dostępna, to wyświetla odpowidni komunikat.
