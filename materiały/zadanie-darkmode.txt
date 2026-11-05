@@ -1,0 +1,16 @@
+Stwórz prostą aplikację internetową składającą się z plików: index.html, styl.css, skrypt.js
+• zastosuj w pliku index.html poprawną strukturę dokumentu HTML5
+• w sekcji body umieść nagłówek h1 z tekstem "Panel sterowania", dowolny akapit opisowy oraz przycisk button z przypisanym identyfikatorem btn-theme i tekstem "Włącz tryb ciemny"
+
+wymagania CSS (styl.css)
+• domyślny wygląd strony: tło jasnoszare, kolor tekstu ciemnoszary
+• stwórz klasę .dark-mode
+• właściwości dla klasy .dark-mode: tło czarne, kolor tekstu jaskrawożółty
+
+wymagania JavaScript (skrypt.js)
+• pobierz element body oraz przycisk używając metody querySelector()
+• przypisz do przycisku nasłuchiwanie zdarzenia kliknięcia (click)
+• po kliknięciu przycisku skrypt ma dodać lub usunąć klasę .dark-mode z elementu body, wykorzystując do tego metodę classList.toggle()
+• skrypt powinien dodatkowo sprawdzić za pomocą classList.contains(), czy body ma obecnie przypisaną klasę .dark-mode
+• jeśli klasa jest przypisana, podmień tekst w przycisku na "Włącz tryb jasny", modyfikując właściwość textContent
+• jeśli klasy brak, przywróć tekst "Włącz tryb ciemny"

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wyszukiwarka drzew</title>
+</head>
+<body>
+
+    <h1>Wyszukiwarka drzew</h1>
+
+    <input type="text" id="searchInput" placeholder="Wpisz nazwę drzewa...">
+    <button onclick="szukajDrzewa()">Szukaj</button>
+
+    <div id="wynik" style="margin-top: 20px;"></div>
+
+    <script>
+        const polskieDrzewa = [
+          {
+            nazwa_drzewa: "Dąb szypułkowy",
+            krotki_opis: "Prawdziwy król polskich lasów. To potężne, długowieczne drzewo z żołędziami, które od wieków jest symbolem siły."
+          },
+          {
+            nazwa_drzewa: "Brzoza brodawkowata",
+            krotki_opis: "Moje ulubione, niezwykle urocze drzewo o charakterystycznej białej korze i delikatnych, wiotkich gałązkach."
+          },
+          {
+            nazwa_drzewa: "Sosna zwyczajna",
+            krotki_opis: "Najpopularniejsze drzewo iglaste w naszym kraju. Pięknie pachnie żywicą i potrafi rosnąć na najbardziej piaszczystych glebach."
+          },
+          {
+            nazwa_drzewa: "Świerk pospolity",
+            krotki_opis: "Wysokie drzewo iglaste o idealnie stożkowatym kształcie. Zimą wygląda magicznie, zwłaszcza pod warstwą śniegu."
+          },
+          {
+            nazwa_drzewa: "Lipa drobnolistna",
+            krotki_opis: "Cudowne, miododajne drzewo z liśćmi w kształcie małych serduszek. Latem podczas kwitnienia pachnie po prostu obłędnie!"
+          }
+        ];
+
+        function szukajDrzewa() {
+            const szukanaFraza = document.getElementById('searchInput').value.toLowerCase().trim(); //szukana fraza pozyskana z inputu, zmieniona na małe litery, przycięte wszystkie białe znaki typu spacje
+            console.log(szukanaFraza);
+            
+            //ZADANIE: Uzupełnij funkcję tak, żeby wyszukiwała w tablicy polskieDrzewa, w nazwach drzew, szukanej frazy, a następnie wyświetliła pełną nazwę (h3) i opis drzewa (p) w kontenerze wynik. Jeśli w kontenerze coś jest, wyczyść go przed dodaniem drzewa. Jeśli drzewo nie zostanie znalezione, wyświetl w kontenerze informację "Drzewo nie zostało znalezione"
+            
+            //Przydatne funkcje: [1,2,3].includes(1) - zwraca true jeśli tablica zawiera dany element, filter
+        }
+    </script>
+
+</body>
+</html>
