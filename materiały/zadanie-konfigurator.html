@@ -1,0 +1,22 @@
+<form name="konfigurator">
+    <label>Nazwa projektu: <input type="text" name="nazwa_projektu"></label><br><br>
+
+    <label>Baza:
+        <select name="baza">
+            <option value="ESP32">ESP32</option>
+            <option value="Arduino Nano">Arduino Nano</option>
+            <option value="Raspberry Pi Pico">Raspberry Pi Pico</option>
+        </select>
+    </label><br><br>
+
+    <p>Moduły dodatkowe:</p>
+    <label><input type="checkbox" name="moduly" value="BME280"> Czujnik BME280</label><br>
+    <label><input type="checkbox" name="moduly" value="OLED"> Wyświetlacz OLED</label><br>
+    <label><input type="checkbox" name="moduly" value="WS2812B"> Taśma LED</label><br><br>
+
+    <p>Zasilanie:</p>
+    <label><input type="radio" name="zasilanie" value="Bateryjne" checked> Bateryjne</label><br>
+    <label><input type="radio" name="zasilanie" value="Sieciowe"> Zasilacz sieciowy</label><br><br>
+
+    <button type="submit">Zapisz konfigurację</button>
+</form>
